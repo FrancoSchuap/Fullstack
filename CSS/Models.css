@@ -48,14 +48,17 @@ a:hover {
   background-color: rgb(3, 120, 110);
   color: white;
 }
-/* Slideshow container */
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
+.mySlides {
+  display: none;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -119,7 +122,10 @@ a:hover {
 }
 
 .fade {
-
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
