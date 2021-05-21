@@ -1,0 +1,67 @@
+@media (min-width: 768px) {
+  body {
+    background-color: #b4b2b2;
+  }
+  #title {
+    text-align: center;
+  }
+  #pp_log {
+    position: relative;
+  }
+  fieldset {
+    margin: 1em;
+  }
+  #field_log {
+    text-align: left;
+  }
+  #field_reg {
+    text-align: right;
+  }
+  legend {
+    text-align: center;
+  }
+  h1 {
+    font-size: xx-large;
+    color: gray;
+    background-color: black;
+  }
+  label {
+    font-size: medium;
+  }
+  legend {
+    font-size: x-large;
+  }
+  a:hover {
+    color: red;
+    transition: all 50ms ease-out;
+    font-size: 1.5em;
+  }
+  a {
+    transition: all 50ms ease-out;
+  }
+  footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+body{
+  background-color: #b4b2b2;
+}
+#title{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+  footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+}
