@@ -123,6 +123,7 @@ a:hover {
   -webkit-animation-duration: 3s;
   animation-name: fade;
   animation-duration: 3s;
+  opacity: 1;
 }
 
 @-webkit-keyframes fade {
