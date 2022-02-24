@@ -14,6 +14,13 @@ footer {
   background-color: black;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
  .topnav a {
   float: left;
   display: block;
